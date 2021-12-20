@@ -1,0 +1,3 @@
+class CheckError
+  def check_menu_user_value?: (String user_value) -> (TrueClass | FalseClass)
+end

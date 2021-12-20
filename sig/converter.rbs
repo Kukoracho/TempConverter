@@ -1,0 +1,6 @@
+class Converter
+  def initialize: (String convert_choose, String value) -> NilClass
+  def convert_part1: -> Float
+  def convert_part2: -> Float
+  def convert: -> (Float | Integer | NilClass)
+end

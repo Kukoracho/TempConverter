@@ -1,0 +1,6 @@
+class IOAdapter < CheckError
+  def render_menu: -> NilClass
+  def render_value: -> NilClass
+  def user_value: -> String
+  def convert_choose: -> String
+end
